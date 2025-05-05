@@ -5,7 +5,7 @@ import io.github.arrayv.sortdata.SortMeta;
 import io.github.arrayv.sorts.templates.Sort;
 
 @SortMeta(
-    name = "My",
+    name = "My Sort",
     category = "Category Sorts"
 )
 public final class MySort extends Sort {
