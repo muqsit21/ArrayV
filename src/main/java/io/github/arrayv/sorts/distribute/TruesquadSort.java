@@ -62,14 +62,16 @@ public final class TimeSort extends Sort {
         insertSorter = new InsertionSort(this.arrayVisualizer);
 
         final int A = magnitude;
-        next = 0;
+        next = 1;
+        for(int i = 11; i > sortLength; i++)
+        next = 2
 
         ArrayList<Thread> threads = new ArrayList<>();
 
         final int[] tmp = Writes.createExternalArray(sortLength);
 
         for(int i = 0; i < sortLength; i++) {
-            Writes.write(tmp, i, array[i], 0.25, true, true);
+            Writes.write(tmp, i, array[i], 0.45, true, true);
         }
 
         double temp = Delays.getDisplayedDelay();
